@@ -1,0 +1,19 @@
+{
+  "name": "RUM",
+  "version": "0.0.1",
+  "description": "...",
+  "background": { "scripts": ["background.js"] },
+  "page_action" :
+  {
+    "default_icon" : "icon-19.png",
+    "default_title" : "There is a girl on this page!"
+  },
+  "permissions" : [
+    "tabs"
+  ],
+  "icons" : {
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "manifest_version": 1
+}
