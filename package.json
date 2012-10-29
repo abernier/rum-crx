@@ -1,0 +1,22 @@
+{
+  "name": "rum-crx",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oiim/rum-crx.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "dependencies": {
+    "rum-scraper": "git+ssh://git@github.com:oiim/rum-scraper.git#master"
+  }
+}
