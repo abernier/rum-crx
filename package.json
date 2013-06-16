@@ -17,6 +17,6 @@
     "npm": "1.1.x"
   },
   "dependencies": {
-    "rum-scraper": "git+ssh://git@github.com:oiim/rum-scraper.git#master"
+    "rum-scraper": "https://github.com/oiim/rum-scraper/archive/master.tar.gz"
   }
 }
