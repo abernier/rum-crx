@@ -5,5 +5,6 @@ npm install
 ```
 
  1. chrome://extensions
- 2. "load unpacked extension..."
- 3. Select this folder
+ 2. Check the "Developer mode" box
+ 3. Click on "load unpacked extension..."
+ 4. Select this folder
