@@ -12,8 +12,8 @@
     {
       "matches": ["http://www.adopteunmec.com/*"],
       "js": [
-        "node_modules/rum-scraper/node_modules/nq/lib/index.js",
-        "node_modules/rum-scraper/node_modules/underscore/underscore.js",
+        "node_modules/nq/lib/index.js",
+        "node_modules/underscore/underscore.js",
         "node_modules/rum-scraper/node_modules/backbone/backbone.js",
         "node_modules/rum-scraper/lib/index.js",
         "node_modules/rum-scraper/lib/extractor.js",
