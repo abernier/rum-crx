@@ -5,7 +5,7 @@
   "background": { "scripts": [
     "node_modules/nq/lib/index.js",
     "node_modules/underscore/underscore.js",
-    "vendor/pouchdb.min.js",
+    "vendor/pouchdb.js",
     "background.js"
   ] },
   "content_scripts": [
