@@ -3,10 +3,9 @@
   "version": "0.0.0",
   "description": "...",
   "background": { "scripts": [
-    "node_modules/rum-scraper/node_modules/nq/lib/index.js",
-    "node_modules/rum-scraper/node_modules/underscore/underscore.js",
-    "node_modules/rum-scraper/lib/index.js",
-    "node_modules/rum-scraper/lib/couch.js",
+    "node_modules/nq/lib/index.js",
+    "node_modules/underscore/underscore.js",
+    "vendor/pouchdb.min.js",
     "background.js"
   ] },
   "content_scripts": [
@@ -22,13 +21,16 @@
       ]
     }
   ],
+  "browser_action": {
+    "default_icon": "icon-19.png"
+  },
   "permissions": [
     "tabs",
-    "http://localhost:5984/"
+    "storage"
   ],
   "icons": {
     "48" : "icon-48.png",
     "128" : "icon-128.png"
   },
-  "manifest_version": 9
+  "manifest_version": 2
 }
