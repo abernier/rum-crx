@@ -39,7 +39,9 @@ chrome.extension.onMessage.addListener(
       //
 
       newDocs.forEach(function (newDoc, i) {
+        // _id and updatedAt
         newDocs[i]['_id'] = newDoc.id;
+        newDocs[i]['updatedAt'] = new Date().getTime();
 
         // Find corresponding old doc
         var oldDoc = _(oldDocs).find(function (oldDoc) {return oldDoc.id === newDoc.id;});
